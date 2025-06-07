@@ -1,0 +1,306 @@
+body {
+    background: linear-gradient(to bottom, rgb(248, 249, 250), rgb(230, 230, 230));
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.bootstrap-logo {
+    width: 100px;
+    height: 90px;
+    margin-top: 40px;
+}
+.header-one {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+        sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+.container .text {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto; /* Centers the container */
+    padding: 10px;
+    color: rgb(48, 47, 47);
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+/* body css */
+
+.header-two {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    width: 100%;
+    padding-bottom: 0px !important; 
+}
+.header-left {
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 43%;
+    
+}
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: gray;
+    width:17%;
+    padding-bottom: 10px !important;
+}
+.body-content {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+.body-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 43%;
+} 
+.header-content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.header-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+.body-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width:17%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:195px;
+} 
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.name {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.user-name, .email,
+.address, .address2, .row6-text {
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+input {
+    border: solid 1px rgb(202, 200, 200)!important;
+}
+.input-text {
+    display: flex;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    border: solid 1px rgb(202, 200, 200);
+    background-color: rgb(231, 226, 226);
+
+}
+.row6 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgb(192, 190, 190);
+}
+.row7 {
+    padding-top: 30px;
+}
+.row8 {
+    padding-bottom: 15px;
+    border-bottom: solid 1px rgb(192, 190, 190);
+}
+
+.row9{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.row10 {
+    padding-bottom: 20px;
+}
+.row11 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.row12 {
+    font-size: 13px;
+    padding-bottom: 20px;
+    color: rgb(139, 138, 138);
+}
+.row13 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 30px;
+    border-bottom: solid 1px rgb(192, 190, 190);
+}
+.row14 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+.row14a {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 60px;
+}
+.row14b {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px; 
+    margin-right: 80px;
+    margin-bottom: 60px;
+}
+/* Ensures links are not underlined by default */
+.row14c, .row14d, .row14e  {
+    text-decoration: none;
+    color: rgba(0, 123, 255);
+    transition: text-decoration 0.3s ease, opacity 0.3s ease;
+}
+
+/* Apply underline effect only on hover */
+.row14c:hover, .row14d:hover, .row14e:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.product {
+    font-size: 16px;
+    font-weight: 500;
+}
+.brief-description {
+    font-size: 13px;
+    color: rgb(108, 117, 125);
+}
+.price {
+    display: flex;
+    color: rgb(108, 117, 125);
+    font-size: 16;
+    justify-content: flex-end;
+}
+.row-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-left: solid 1px rgb(202, 200, 200);
+    border-right: solid 1px rgb(202, 200, 200);
+    border-top: solid 1px rgb(202, 200, 200);
+    padding: 15px 20px 15px 20px;
+    height: 65px;
+    background-color: white;
+    margin-bottom: 0px !important;
+    margin: 0 !important;
+    border-spacing: 0;
+    gap: 0;
+}
+.header-content-left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 70%;
+}
+.header-content-right1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+}
+.row-right1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-left: solid 1px rgb(202, 200, 200);
+    border-right: solid 1px rgb(202, 200, 200);
+    border-top: solid 1px rgb(202, 200, 200);
+    border-bottom: solid 1px rgb(202, 200, 200);
+    padding: 15px 20px 15px 20px;
+    background-color: linear-gradient(to bottom, rgb(248, 249, 250), rgb(230, 230, 230));
+    border-spacing: 0;
+    gap: 0;
+    color: rgb(40, 167, 69);   
+     
+}
+.brief-description1 {
+    font-size: 13px;
+    color: rgb(40, 167, 69); 
+}
+.price1 {
+    display: flex;
+    color: rgb(40, 167, 69); 
+    font-size: 16;
+    justify-content: flex-end;
+}
+.row-right2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-left: solid 1px rgb(202, 200, 200);
+    border-right: solid 1px rgb(202, 200, 200);
+    border-bottom: solid 1px rgb(202, 200, 200);
+    padding: 15px 20px 15px 20px;
+    background-color: white;
+    border-spacing: 0;
+    gap: 0;
+    color: rgb(48, 47, 47); 
+     
+}
+.price2 {
+    display: flex;
+    color: rgb(33, 37, 41); 
+    font-size: 16;
+    justify-content: flex-end;
+    font-weight: 500;
+}
+.row-right3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-left: solid 1px rgb(202, 200, 200);
+    border-right: solid 1px rgb(202, 200, 200);
+    border-bottom: solid 1px rgb(202, 200, 200);
+    padding: 15px 20px 15px 20px;
+    background-color: white;
+    border-spacing: 0;
+    gap: 0;
+    color: rgb(48, 47, 47); 
+}
