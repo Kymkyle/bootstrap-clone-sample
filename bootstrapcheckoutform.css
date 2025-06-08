@@ -304,3 +304,129 @@ input {
     gap: 0;
     color: rgb(48, 47, 47); 
 }
+@media (max-width: 400px) {
+  .main-content {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-color: linear-gradient(to bottom, rgb(248, 249, 250), rgb(230, 230, 230));
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .header-one {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  .container .text {
+    font-size: 16px;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+
+  .header-two {
+    flex-direction: column;
+    align-items: center;
+  }
+  .body-container {
+    width: 97%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .header-left,
+  .header-right {
+    width: 75%;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  @media (max-width: 400px) {
+    #firstName.form-control {
+      width: 195px !important;
+    }
+    .input-group {
+      width: 390px !important;
+    }
+    #userName.form-control {
+      width: 390px !important;
+    }
+    #Address.form-control {
+      width: 390px !important;
+    }
+    #Address2.form-control {
+      width: 390px !important;
+    }
+  }
+  .body-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body-content-left,
+  .body-content-right {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .header-content-left,
+  .header-content-right,
+  .header-content-left1,
+  .header-content-right1 {
+    width: 80%;
+  }
+  .row6 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .row7 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .row11,
+  .row13 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .row14 {
+    padding-top: 50px;
+  }
+
+  .row14a,
+  .row14b {
+    justify-content: center;
+    margin: 0;
+    gap: 10px;
+  }
+
+  .row-right,
+  .row-right1,
+  .row-right2,
+  .row-right3 {
+    flex-direction: column;
+    padding: 10px;
+    height: auto;
+  }
+
+  .price,
+  .price1,
+  .price2 {
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .product,
+  .brief-description,
+  .brief-description1 {
+    text-align: center;
+  }
+}
