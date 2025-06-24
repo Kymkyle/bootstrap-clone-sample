@@ -435,3 +435,76 @@ input {
     text-align: center;
   }
 }
+@media (max-width: 1024px) {
+  .header-one {
+    font-size: 28px;
+    margin-top: 20px;
+  }
+
+  .container .text {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .header-left,
+  .header-right {
+    width: 48%;
+    font-size: 20px;
+  }
+
+  .body-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .body-content-left,
+  .body-content-right {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .header-content-left,
+  .header-content-right,
+  .header-content-left1,
+  .header-content-right1 {
+    width: 90%;
+  }
+
+  .row6 {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .row11,
+  .row13 {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .row14b {
+    justify-content: center;
+    gap: 10px;
+    margin-right: 0;
+  }
+
+  .row-right,
+  .row-right1,
+  .row-right2,
+  .row-right3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 12px;
+    height: auto;
+  }
+
+  .price,
+  .price1,
+  .price2 {
+    font-size: 15px;
+  }
+
+  .brief-description,
+  .brief-description1 {
+    font-size: 12px;
+  }
+}
