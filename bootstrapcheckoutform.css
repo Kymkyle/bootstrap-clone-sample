@@ -547,6 +547,9 @@ input {
     margin-right: 0;
     margin-left: 100px;
   }
+  .price {
+    font-size: small !important;
+  }
 }
 
 /* 360px and below */
@@ -582,6 +585,9 @@ input {
     width: 300px;
     margin-right: 0;
     margin-left: 100px;
+  }
+  .price {
+    font-size: small !important;
   }
 }
 /* 320px and below - Very small devices */
@@ -620,5 +626,8 @@ input {
     width: 300px;
     margin-right: 0;
     margin-left: 100px;
+  }
+  .price {
+    font-size: small !important;
   }
 }
